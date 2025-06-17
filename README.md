@@ -1,77 +1,12 @@
+# React + Vite
 
-````markdown
-# AguaExpress - Frontend
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Este es el frontend web (modo app) de **AguaExpress**, desarrollado con React + Vite. La aplicación permite a los usuarios (clientes y administrador) realizar y gestionar pedidos de botellones de agua.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## 🚀 Tecnologías
+## Expanding the ESLint configuration
 
-- React
-- Vite
-- Axios
-- React Router
-- Context API (para autenticación y estado global)
-- Tailwind CSS (opcional para estilos)
-- dotenv
-
----
-
-## 📁 Estructura sugerida
-
-```text
-aguaexpress-frontend/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── context/
-│   ├── hooks/
-│   ├── styles/
-│   └── App.jsx
-├── .env
-├── vite.config.js
-├── index.html
-└── package.json
-````
-
----
-
-## ⚙️ Instalación
-
-1. Clona el repositorio
-
-   ```bash
-   git clone https://github.com/tuusuario/aguaexpress-frontend.git
-   ```
-
-2. Instala las dependencias
-
-   ```bash
-   npm install
-   ```
-
-3. Configura el archivo `.env`:
-
-   ```env
-   VITE_API_URL=http://localhost:3000/api
-   ```
-
-4. Ejecuta el servidor de desarrollo
-
-   ```bash
-   npm run dev
-   ```
-
----
-
-## ✅ Estado del proyecto
-
-Este frontend es parte del proyecto integrador universitario **AguaExpress**, enfocado en pedidos móviles de agua embotellada para microempresas. Está diseñado para ser intuitivo, ligero y de fácil mantenimiento.
-
-```
-
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
